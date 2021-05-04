@@ -1,13 +1,13 @@
-/** 
+/**
  * Assignment 2 Virus Simulator *
  *          RULES               *
  * This assignment replicates a virus generator with a number of different object types:
  * Healthy, Infected and Recovered.
- * The molecules show how a virus can spread and what affect implementing different social behaviours 
+ * The molecules show how a virus can spread and what affect implementing different social behaviours
  * like viral rate, lifecycle and recovery have on the outcome.
  * Users have the option of changing these parameters through a GUI located on the top right.
  * A graphical output of results can be seen under the simulation and the results of molecules that are
- * Healthy, Infected and Recovered can been seen as they change.
+ * Healthy, Infected and Recovered can be seen as they change.
  */
 
 let molecules = [];
@@ -53,7 +53,7 @@ function draw() {
 }
 
 
-/** 
+/**
  * checkIntersections:
  * A nested for/else loop that checks if molecules intersect each other & changes their state.
  * The parameter _collection is passed in to keep the checking within the specific grid section.
@@ -109,7 +109,7 @@ function checkIntersections(_collection) {
 }
 
 
-/** 
+/**
  * splitObjectIntoGrid:
  * A nested for loop that checks each section of the grid made up of rows and columns.
  * moleculeCollection is assigned a filtered array of the molecule objects divided and mapped within the grid.
@@ -131,7 +131,7 @@ function splitObjectIntoGrid() {
 }
 
 
-/** 
+/**
  * gridify:
  * Takes the square root of the amount of molecules, divides & floors that relative to the number
  * of rows and columns (numDivision) and distributes them evenly by changing their position.
@@ -151,10 +151,10 @@ function gridify() {
 }
 
 
-/** 
+/**
  * drawGraph:
  * Draws a graph by pushing the values of healthy and infected as a visual output of rectangles
- * The style of graph is defined by rectangles and their fill defined by  with no stroke. 
+ * The style of graph is defined by rectangles and their fill defined by  with no stroke.
  * There are no parameters required to fulfil the function and no returns.
  */
 function drawGraph() {
@@ -180,9 +180,9 @@ function drawGraph() {
     text("Infected: " + numInfected.length, 10, windowHeight - graphHeight + 60);
     text("Recovered: " + numRecovered.length, 10, windowHeight - graphHeight + 90);
 
-    /** 
+    /**
      * If the array exceeds half the browser window width,
-     * the first value in the array is deleted and replaced 
+     * the first value in the array is deleted and replaced
      * with the new array values being added to the end.
      */
 
@@ -216,10 +216,10 @@ function drawGraph() {
     pop();
 }
 
-/** 
+/**
  * checkHealth:
- * checks each of the Infected molecules frames/lifeCycle for recoveryLength and adds it to it's date of birth. 
- * This will tell when the Infected molecule has ran it's course and the molecule's information 
+ * checks each of the Infected molecules frames/lifeCycle for recoveryLength and adds it to it's date of birth.
+ * This will tell when the Infected molecule has ran it's course and the molecule's information
  * is pushed into a temporary object and the newly Recovered object is created.
  */
 function checkHealth() {
@@ -237,11 +237,11 @@ function checkHealth() {
     });
 }
 
-/** 
+/**
  * drawGrid:
  * Draws a grid using a nested loop iterating columns(i) within rows(j).
  * colWidth and rowWidth are calculated in the setup().
- * The style of grid is defined by fill, stroke and strokeWeight. 
+ * The style of grid is defined by fill, stroke and strokeWeight.
  * There are no parameters required to fulfil the function and no returns.
  */
 function drawGrid() {
@@ -257,7 +257,7 @@ function drawGrid() {
     }
 }
 
-/** 
+/**
  * checkLoop:
  * controlls the boolean for the GUI controls to turn on/off the molecules movement on the canvas.
  */
@@ -270,7 +270,7 @@ function checkLoop() {
 }
 
 
-/** 
+/**
  * refreshGui:
  * sets the GUI controller values to their new values.
  */
