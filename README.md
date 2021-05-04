@@ -3,6 +3,8 @@
 
 CA2 for the Interactive Graphics module at IADT.
 
+[Requirements](https://docs.google.com/document/d/1I6CsXo21cEH91l-06Y-vwtG_OY_o1b_hzJnxqPISIcY/edit?usp=sharing)
+
 ## Installation
 
 Clone the repository
