@@ -1,9 +1,7 @@
 # :green_circle: Interactive Graphics - p5.js :red_circle:
  An interactive virus simulation made with p5.js and dat.GUI.js. 
 
-CA2 for the Interactive Graphics module at IADT.
-
-[Requirements](https://docs.google.com/document/d/1I6CsXo21cEH91l-06Y-vwtG_OY_o1b_hzJnxqPISIcY/edit?usp=sharing)
+CA2 for the Interactive Graphics module at IADT - [Requirements](https://docs.google.com/document/d/1I6CsXo21cEH91l-06Y-vwtG_OY_o1b_hzJnxqPISIcY/edit?usp=sharing)
 
 ## Installation
 
